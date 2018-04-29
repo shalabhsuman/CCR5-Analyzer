@@ -1,0 +1,30 @@
+
+/* Class = "NSWindow"; title = "Ange mål"; ObjectID = "1"; */
+"1.title" = "Ange mål";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "4"; */
+"4.title" = "OK";
+
+/* Class = "NSButtonCell"; title = "Avbryt"; ObjectID = "8"; */
+"8.title" = "Avbryt";
+
+/* Class = "NSButtonCell"; title = "Variabel"; ObjectID = "0Ti-iQ-nDj"; */
+"0Ti-iQ-nDj.title" = "Variabel";
+
+/* Class = "NSTextFieldCell"; title = "Repetition:"; ObjectID = "0zD-U9-dbc"; */
+"0zD-U9-dbc.title" = "Repetition:";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "3j2-HG-NBI"; */
+"3j2-HG-NBI.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "4YP-W5-LGz"; */
+"4YP-W5-LGz.title" = "Item 3";
+
+/* Class = "NSSearchFieldCell"; placeholderString = "Sök i fälten"; ObjectID = "4v7-5a-RvT"; */
+"4v7-5a-RvT.placeholderString" = "Sök i fälten";
+
+/* Class = "NSButtonCell"; title = "Fält"; ObjectID = "FSG-dU-3Vz"; */
+"FSG-dU-3Vz.title" = "Fält";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "zLR-xL-Gth"; */
+"zLR-xL-Gth.title" = "Item 2";

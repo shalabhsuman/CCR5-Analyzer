@@ -1,0 +1,30 @@
+
+/* Class = "NSWindow"; title = "Especificar destino"; ObjectID = "1"; */
+"1.title" = "Especificar destino";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "4"; */
+"4.title" = "OK";
+
+/* Class = "NSButtonCell"; title = "Cancelar"; ObjectID = "8"; */
+"8.title" = "Cancelar";
+
+/* Class = "NSButtonCell"; title = "Variável"; ObjectID = "0Ti-iQ-nDj"; */
+"0Ti-iQ-nDj.title" = "Variável";
+
+/* Class = "NSTextFieldCell"; title = "Repetição:"; ObjectID = "0zD-U9-dbc"; */
+"0zD-U9-dbc.title" = "Repetição:";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "3j2-HG-NBI"; */
+"3j2-HG-NBI.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "4YP-W5-LGz"; */
+"4YP-W5-LGz.title" = "Item 3";
+
+/* Class = "NSSearchFieldCell"; placeholderString = "Pesquisar campos"; ObjectID = "4v7-5a-RvT"; */
+"4v7-5a-RvT.placeholderString" = "Pesquisar campos";
+
+/* Class = "NSButtonCell"; title = "Campo"; ObjectID = "FSG-dU-3Vz"; */
+"FSG-dU-3Vz.title" = "Campo";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "zLR-xL-Gth"; */
+"zLR-xL-Gth.title" = "Item 2";

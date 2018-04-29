@@ -1,0 +1,27 @@
+
+/* Class = "NSButtonCell"; title = "サインイン"; ObjectID = "4"; */
+"4.title" = "サインイン";
+
+/* Class = "NSButtonCell"; title = "キャンセル"; ObjectID = "7"; */
+"7.title" = "キャンセル";
+
+/* Class = "NSTextFieldCell"; title = "パスワード:"; ObjectID = "Fjy-La-bCf"; */
+"Fjy-La-bCf.title" = "パスワード:";
+
+/* Class = "NSButtonCell"; title = "キーチェーンアクセスにパスワードを保存"; ObjectID = "NAA-he-KaM"; */
+"NAA-he-KaM.title" = "キーチェーンアクセスにパスワードを保存";
+
+/* Class = "NSTextFieldCell"; title = "アカウント名:"; ObjectID = "Yap-X0-3cj"; */
+"Yap-X0-3cj.title" = "アカウント名:";
+
+/* Class = "NSButtonCell"; title = "ゲストとしてサインイン"; ObjectID = "g75-3Y-6Qv"; */
+"g75-3Y-6Qv.title" = "ゲストとしてサインイン";
+
+/* Class = "NSTextFieldCell"; title = "または次を使用してサインイン:"; ObjectID = "mgh-zY-lfV"; */
+"mgh-zY-lfV.title" = "または次を使用してサインイン:";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "証明書または接続情報を表示します。"; ObjectID = "vi9-Eu-fc4"; */
+"vi9-Eu-fc4.ibExternalAccessibilityDescription" = "証明書または接続情報を表示します。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "証明書または接続情報を表示します。"; ObjectID = "vi9-Eu-fc4"; */
+"vi9-Eu-fc4.ibShadowedToolTip" = "証明書または接続情報を表示します。";

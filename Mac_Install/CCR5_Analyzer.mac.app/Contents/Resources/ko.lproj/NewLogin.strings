@@ -1,0 +1,27 @@
+
+/* Class = "NSButtonCell"; title = "로그인"; ObjectID = "4"; */
+"4.title" = "로그인";
+
+/* Class = "NSButtonCell"; title = "취소"; ObjectID = "7"; */
+"7.title" = "취소";
+
+/* Class = "NSTextFieldCell"; title = "암호:"; ObjectID = "Fjy-La-bCf"; */
+"Fjy-La-bCf.title" = "암호:";
+
+/* Class = "NSButtonCell"; title = "키체인 접근에 암호 저장"; ObjectID = "NAA-he-KaM"; */
+"NAA-he-KaM.title" = "키체인 접근에 암호 저장";
+
+/* Class = "NSTextFieldCell"; title = "계정 이름:"; ObjectID = "Yap-X0-3cj"; */
+"Yap-X0-3cj.title" = "계정 이름:";
+
+/* Class = "NSButtonCell"; title = "방문자로 로그인"; ObjectID = "g75-3Y-6Qv"; */
+"g75-3Y-6Qv.title" = "방문자로 로그인";
+
+/* Class = "NSTextFieldCell"; title = "또는 다음으로 로그인:"; ObjectID = "mgh-zY-lfV"; */
+"mgh-zY-lfV.title" = "또는 다음으로 로그인:";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "인증서 또는 연결 정보를 확인하십시오."; ObjectID = "vi9-Eu-fc4"; */
+"vi9-Eu-fc4.ibExternalAccessibilityDescription" = "인증서 또는 연결 정보를 확인하십시오.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "인증서 또는 연결 정보를 확인하십시오."; ObjectID = "vi9-Eu-fc4"; */
+"vi9-Eu-fc4.ibShadowedToolTip" = "인증서 또는 연결 정보를 확인하십시오.";

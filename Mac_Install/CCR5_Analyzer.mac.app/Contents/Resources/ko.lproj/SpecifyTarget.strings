@@ -1,0 +1,30 @@
+
+/* Class = "NSWindow"; title = "대상 지정"; ObjectID = "1"; */
+"1.title" = "대상 지정";
+
+/* Class = "NSButtonCell"; title = "승인"; ObjectID = "4"; */
+"4.title" = "승인";
+
+/* Class = "NSButtonCell"; title = "취소"; ObjectID = "8"; */
+"8.title" = "취소";
+
+/* Class = "NSButtonCell"; title = "변수"; ObjectID = "0Ti-iQ-nDj"; */
+"0Ti-iQ-nDj.title" = "변수";
+
+/* Class = "NSTextFieldCell"; title = "반복:"; ObjectID = "0zD-U9-dbc"; */
+"0zD-U9-dbc.title" = "반복:";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "3j2-HG-NBI"; */
+"3j2-HG-NBI.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "4YP-W5-LGz"; */
+"4YP-W5-LGz.title" = "Item 3";
+
+/* Class = "NSSearchFieldCell"; placeholderString = "필드 검색"; ObjectID = "4v7-5a-RvT"; */
+"4v7-5a-RvT.placeholderString" = "필드 검색";
+
+/* Class = "NSButtonCell"; title = "필드"; ObjectID = "FSG-dU-3Vz"; */
+"FSG-dU-3Vz.title" = "필드";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "zLR-xL-Gth"; */
+"zLR-xL-Gth.title" = "Item 2";

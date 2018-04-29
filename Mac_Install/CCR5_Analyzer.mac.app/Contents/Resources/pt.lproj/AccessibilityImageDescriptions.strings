@@ -1,0 +1,21 @@
+/* Map Image Name to Accessibility Description */
+
+"IDB_SORT_ORDER" = "Classificar em ordem crescente";
+"IDB_SORT_ORDER_DISABLED" = "Classificar em ordem crescente";
+"IDB_SORT_ORDER_DESCEND" = "Classificar em ordem decrescente";
+"IDB_SORT_ORDER_DESCEND_DISABLED" = "Classificar em ordem decrescente";
+"IDB_SORT_ORDER_CUSTOM" = "Ordem de classificação personalizada";
+"IDB_SORT_ORDER_CUSTOM_DISABLED" = "Ordem de classificação personalizada";
+"IDBSICN_SORT4" = "Reordenar com base no campo de resumo, ordem crescente";
+"IDBSICN_SORT5" = "Reordenar com base no campo de resumo, ordem decrescente";
+"IDB_IMPORT_ARROWS_MAP" = "Importar para o campo";
+"IDB_IMPORT_ARROWS_NONE" = "Não importar esse campo";
+"IDB_IMPORT_ARROWS_MATCH" = "Corresponder registros baseado nesse campo";
+"IDB_IMPORT_ARROWS_CANTIMPORT" = "Campo de destino não pode receber dados";
+"IDB_BREAKPOINT_ON" = "Pto de interrupção ativado";
+"IDB_BREAKPOINT_OFF" = "Pto de interrupção desativado";
+"IDB_DEFINE_SCRIPTS_GROUP" = "Pasta";
+"IDB_DEFINE_SCRIPTS_SCRIPT" = "Script";
+"IDB_SICN_LIST_REORDER" = "Arraste para reordenar";
+
+

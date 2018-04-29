@@ -1,0 +1,21 @@
+/* Map Image Name to Accessibility Description */
+
+"IDB_SORT_ORDER" = "Sortera stigande";
+"IDB_SORT_ORDER_DISABLED" = "Sortera stigande";
+"IDB_SORT_ORDER_DESCEND" = "Sortera fallande";
+"IDB_SORT_ORDER_DESCEND_DISABLED" = "Sortera fallande";
+"IDB_SORT_ORDER_CUSTOM" = "Egen sorteringsordning";
+"IDB_SORT_ORDER_CUSTOM_DISABLED" = "Egen sorteringsordning";
+"IDBSICN_SORT4" = "Ändra ordning efter statistikfält, stigande";
+"IDBSICN_SORT5" = "Ändra ordning efter statistikfält, fallande";
+"IDB_IMPORT_ARROWS_MAP" = "Importera det här fältet";
+"IDB_IMPORT_ARROWS_NONE" = "Importera inte det här fältet";
+"IDB_IMPORT_ARROWS_MATCH" = "Jämför poster med det här fältet";
+"IDB_IMPORT_ARROWS_CANTIMPORT" = "Målfältet kan inte ta emot data";
+"IDB_BREAKPOINT_ON" = "Brytpunkt på";
+"IDB_BREAKPOINT_OFF" = "Brytpunkt av";
+"IDB_DEFINE_SCRIPTS_GROUP" = "Mapp";
+"IDB_DEFINE_SCRIPTS_SCRIPT" = "Script";
+"IDB_SICN_LIST_REORDER" = "Dra för att ändra ordning";
+
+

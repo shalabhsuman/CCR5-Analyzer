@@ -1,0 +1,27 @@
+
+/* Class = "NSButtonCell"; title = "Logga in"; ObjectID = "4"; */
+"4.title" = "Logga in";
+
+/* Class = "NSButtonCell"; title = "Avbryt"; ObjectID = "7"; */
+"7.title" = "Avbryt";
+
+/* Class = "NSTextFieldCell"; title = "Lösenord:"; ObjectID = "Fjy-La-bCf"; */
+"Fjy-La-bCf.title" = "Lösenord:";
+
+/* Class = "NSButtonCell"; title = "Spara lösenord i Nyckelhanterare"; ObjectID = "NAA-he-KaM"; */
+"NAA-he-KaM.title" = "Spara lösenord i Nyckelhanterare";
+
+/* Class = "NSTextFieldCell"; title = "Kontonamn:"; ObjectID = "Yap-X0-3cj"; */
+"Yap-X0-3cj.title" = "Kontonamn:";
+
+/* Class = "NSButtonCell"; title = "Logga in som gäst"; ObjectID = "g75-3Y-6Qv"; */
+"g75-3Y-6Qv.title" = "Logga in som gäst";
+
+/* Class = "NSTextFieldCell"; title = "Eller logga in med:"; ObjectID = "mgh-zY-lfV"; */
+"mgh-zY-lfV.title" = "Eller logga in med:";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Visa certifikat- eller anslutningsinformation."; ObjectID = "vi9-Eu-fc4"; */
+"vi9-Eu-fc4.ibExternalAccessibilityDescription" = "Visa certifikat- eller anslutningsinformation.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Visa certifikat- eller anslutningsinformation."; ObjectID = "vi9-Eu-fc4"; */
+"vi9-Eu-fc4.ibShadowedToolTip" = "Visa certifikat- eller anslutningsinformation.";

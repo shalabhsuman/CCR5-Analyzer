@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<WebsiteURLTemplateList  xmlns="http://www.filemaker.com/WebsiteURLTemplate"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+           xsd:noNamespaceSchemaLocation="WebViewerTemplates.xsd">
+
+<!-- ヘッダ終了、テンプレートリスト開始: -->
+
+
+
+
+<!-- 以下をサポートするテンプレート:   "http://local.google.co.jp/maps?q=%90%E7%91%E3%93c%8B%E6%89i%93c%92%AC1-7-1%22+%82%E2+%22%8Fa%92J&btnG=%8C%9F%8D%F5" -->
+
+
+ <WebsiteURLTemplate name="Google Maps" baseURL="http://local.google.co.jp/maps?" description="地図を表示して道順を確認します。">
+ 
+ <URLElement parameterIdentifier="q" type="Virtual" virtualSeparator=" " >   <!-- virtualSeparator は、以下の場合はオプションです。 -->
+ 
+  <URLVirtualParameter label="住所" userHint="必須" description="確認する場所の住所を入力します。" />
+  <URLVirtualParameter label="キーワード" userHint="オプション" description="確認する場所のキーワードを入力します。" />
+ 
+ </URLElement>
+  
+ </WebsiteURLTemplate>
+ 
+
+
+<!-- 以下をサポートするテンプレート:  "http://www.google.co.jp/search?q=testing" -->
+
+<WebsiteURLTemplate name="Google Web 検索" description="Web を検索します。" baseURL="http://www.google.co.jp/search?" >
+ 
+ <URLElement parameterIdentifier="q" type="Parameter" label="クエリー" userHint="必須" description="検索する語をここに入力してください。" />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- FedEx 荷物追跡 "http://www.fedex.com/Tracking?cntry_code=jp&tracknumbers=709384470830" -->
+
+
+<WebsiteURLTemplate name="FedEx" baseURL="http://www.fedex.com/Tracking?" description="送付物を追跡します。" >
+ 
+   <URLElement type="Literal">cntry_code=jp&amp;</URLElement>
+   <URLElement parameterIdentifier="tracknumbers" type="Parameter" label="追跡番号" userHint="必須" description="荷物の追跡番号をここに入力してください。" />
+ 
+</WebsiteURLTemplate>
+
+
+
+
+
+
+<!-- Wikipedia 検索 "http://ja.wikipedia.org/wiki/Special:Search?search=" -->
+
+<WebsiteURLTemplate name="Wikipedia" baseURL="http://ja.wikipedia.org/wiki/Special:Search?" description="無料百科事典を検索します。" >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="検索する語" userHint="必須" description="検索する語をここに入力してください。" />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- Wikinews 検索 "http://ja.wikinews.org/wiki/Special:Search?search=Apple" -->
+
+<WebsiteURLTemplate name="Wikinews" baseURL="http://ja.wikinews.org/wiki/Special:Search?" description="新しい記事を検索します。" >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="検索する語" userHint="必須" description="検索する語をここに入力してください。" />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- Wikinews 検索 "http://ja.wiktionary.org/wiki/Special:Search?search=" -->
+
+<WebsiteURLTemplate name="Wiktionary" baseURL="http://ja.wiktionary.org/wiki/Special:Search?" description="オープンコンテンツの辞書を検索します。" >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="検索する語" userHint="必須" description="検索する語をここに入力してください。" />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- Wikinews 検索 "http://ja.wikibooks.org/wiki/Special:Search?search=" -->
+
+<WebsiteURLTemplate name="Wikibooks" baseURL="http://ja.wikibooks.org/wiki/Special:Search?" description="オープンコンテンツの教科書を検索します。" >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="検索する語" userHint="必須" description="検索する語をここに入力してください。" />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- Wikinews 検索 "http://ja.wikisource.org/wiki/Special:Search?search=" -->
+
+<WebsiteURLTemplate name="Wikisource" baseURL="http://ja.wikisource.org/wiki/Special:Search?" description="ソーステキストの無料ライブラリを検索します。" >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="検索する語" userHint="必須" description="検索する語をここに入力してください。" />
+ 
+</WebsiteURLTemplate>
+
+
+</WebsiteURLTemplateList>

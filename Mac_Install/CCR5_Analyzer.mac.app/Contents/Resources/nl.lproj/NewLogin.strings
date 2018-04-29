@@ -1,0 +1,27 @@
+
+/* Class = "NSButtonCell"; title = "Aanmelden"; ObjectID = "4"; */
+"4.title" = "Aanmelden";
+
+/* Class = "NSButtonCell"; title = "Annuleren"; ObjectID = "7"; */
+"7.title" = "Annuleren";
+
+/* Class = "NSTextFieldCell"; title = "Wachtwoord:"; ObjectID = "Fjy-La-bCf"; */
+"Fjy-La-bCf.title" = "Wachtwoord:";
+
+/* Class = "NSButtonCell"; title = "Wachtwoord opslaan in Keychain Access"; ObjectID = "NAA-he-KaM"; */
+"NAA-he-KaM.title" = "Wachtwoord opslaan in Keychain Access";
+
+/* Class = "NSTextFieldCell"; title = "Accountnaam:"; ObjectID = "Yap-X0-3cj"; */
+"Yap-X0-3cj.title" = "Accountnaam:";
+
+/* Class = "NSButtonCell"; title = "Aanmelden als gast"; ObjectID = "g75-3Y-6Qv"; */
+"g75-3Y-6Qv.title" = "Aanmelden als gast";
+
+/* Class = "NSTextFieldCell"; title = "Of aanmelden met:"; ObjectID = "mgh-zY-lfV"; */
+"mgh-zY-lfV.title" = "Of aanmelden met:";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Bekijk informatie over certificaat of verbinding."; ObjectID = "vi9-Eu-fc4"; */
+"vi9-Eu-fc4.ibExternalAccessibilityDescription" = "Bekijk informatie over certificaat of verbinding.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Bekijk informatie over certificaat of verbinding."; ObjectID = "vi9-Eu-fc4"; */
+"vi9-Eu-fc4.ibShadowedToolTip" = "Bekijk informatie over certificaat of verbinding.";

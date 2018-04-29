@@ -1,0 +1,21 @@
+/* Map Image Name to Accessibility Description */
+
+"IDB_SORT_ORDER" = "Oplopend sorteren";
+"IDB_SORT_ORDER_DISABLED" = "Oplopend sorteren";
+"IDB_SORT_ORDER_DESCEND" = "Aflopend sorteren";
+"IDB_SORT_ORDER_DESCEND_DISABLED" = "Aflopend sorteren";
+"IDB_SORT_ORDER_CUSTOM" = "Eigen sorteervolgorde";
+"IDB_SORT_ORDER_CUSTOM_DISABLED" = "Eigen sorteervolgorde";
+"IDBSICN_SORT4" = "Volgorde wijzigen aan de hand van resuméveld (oplopende volgorde)";
+"IDBSICN_SORT5" = "Volgorde wijzigen aan de hand van resuméveld (aflopende volgorde)";
+"IDB_IMPORT_ARROWS_MAP" = "Dit veld importeren";
+"IDB_IMPORT_ARROWS_NONE" = "Dit veld niet importeren";
+"IDB_IMPORT_ARROWS_MATCH" = "Records vergelijken aan de hand van dit veld";
+"IDB_IMPORT_ARROWS_CANTIMPORT" = "Doelveld kan geen gegevens ontvangen";
+"IDB_BREAKPOINT_ON" = "Onderbrekingspunt aan";
+"IDB_BREAKPOINT_OFF" = "Onderbrekingspunt uit";
+"IDB_DEFINE_SCRIPTS_GROUP" = "Map";
+"IDB_DEFINE_SCRIPTS_SCRIPT" = "Script";
+"IDB_SICN_LIST_REORDER" = "Sleep om opnieuw te rangschikken";
+
+

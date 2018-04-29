@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<WebsiteURLTemplateList  xmlns="http://www.filemaker.com/WebsiteURLTemplate"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+           xsd:noNamespaceSchemaLocation="WebViewerTemplates.xsd">
+
+<!-- Kopgedeelte eindigt, sjabloonlijst begint: -->
+
+<!-- MapQuest "http://www.mapquest.com/maps/map.adp?formtype=address&searchtype=address&address=Elektraweg%205&city=Maassluis&zipcode=314&country=NL" -->
+
+ <WebsiteURLTemplate name="MapQuest" baseURL="http://www.mapquest.com/maps/map.adp?" description="Geef plattegronden weer en haal routebeschrijving op." parameterIndicator="=" parameterSeparator="&amp;" >
+ 
+   <URLElement type="Literal">formtype=address&amp;</URLElement>
+   <URLElement type="Literal">searchtype=address&amp;</URLElement>
+   <URLElement type="Literal">cid=filemkr&amp;</URLElement>
+
+   <URLElement parameterIdentifier="address" type="Parameter" label="Straat" description="Adres van de desbetreffende locatie." userHint="Vereist"  alwaysPresent="True" />
+   <URLElement type="Parameter" label="Plaats" userHint="Vereist" alwaysPresent="False" parameterIdentifier="city" description="Plaats van de desbetreffende locatie." />
+   <URLElement type="Parameter" label="Land" userHint="Vereist" alwaysPresent="True" parameterIdentifier="country" description="Land van de desbetreffende locatie." />
+   <URLElement type="Parameter" label="Postcode" userHint="Optioneel" alwaysPresent="False" parameterIdentifier="zipcode" description="Postroutecode, indien bekend." />
+ 
+ 
+ </WebsiteURLTemplate>
+ 
+
+
+<!-- sjabloon die ondersteuning biedt voor dingen als "http://www.google.nl/search?q=testing" -->
+
+<WebsiteURLTemplate name="Google-zoekopdracht Nederland" description="Zoek op het Internet." baseURL="http://www.google.nl/search?" >
+ 
+ <URLElement parameterIdentifier="q" type="Parameter" label="Opvraag" userHint="Vereist" description="Voer hier uw zoektermen in." />
+ 
+</WebsiteURLTemplate>
+
+
+<WebsiteURLTemplate name="Google-zoekopdracht België" description="Zoek op het Internet." baseURL="http://www.google.be/search?" >
+ 
+ <URLElement parameterIdentifier="q" type="Parameter" label="Opvraag" userHint="Vereist" description="Voer hier uw zoektermen in." />
+ 
+</WebsiteURLTemplate>
+
+
+<!-- FedEx-pakket volgen "http://www.fedex.com/Tracking?cntry_code=nl&tracknumbers=709384470830" -->
+
+
+<WebsiteURLTemplate name="FedEx" baseURL="http://www.fedex.com/Tracking?" description="Volg verzendingen." >
+ 
+   <URLElement type="Literal">cntry_code=nl&amp;</URLElement>
+   <URLElement parameterIdentifier="tracknumbers" type="Parameter" label="Volgnummer" userHint="Vereist" description="Voer hier het volgnummer van uw pakket in." />
+ 
+</WebsiteURLTemplate>
+
+
+
+
+<!-- Wikipedia-zoekopdracht "http://nl.wikipedia.org/wiki/Speciaal:Search?search=Nederlands" -->
+
+<WebsiteURLTemplate name="Wikipedia" baseURL="http://nl.wikipedia.org/wiki/Special:Search?" description="Zoek in de gratis encyclopedie." >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="Zoekterm" userHint="Vereist" description="Voer hier uw zoektermen in." />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- Wikinews-zoekopdracht "http://nl.wikinews.org/wiki/Special:Search?search=Apple" -->
+
+<WebsiteURLTemplate name="Wikinews" baseURL="http://nl.wikinews.org/wiki/Special:Search?" description="Zoek in nieuwsartikelen." >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="Zoekterm" userHint="Vereist" description="Voer hier uw zoektermen in." />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- Wikinews-zoekopdracht "http://nl.wiktionary.org/wiki/Special:Search?search=Nederlands" -->
+
+<WebsiteURLTemplate name="WikiWoordenboek" baseURL="http://nl.wiktionary.org/wiki/Special:Search?" description="Zoek in het woordenboek met vrije inhoud." >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="Zoekterm" userHint="Vereist" description="Voer hier uw zoektermen in." />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- Wikinews-zoekopdracht "http://nl.wikibooks.org/wiki/Special:Search?search=Amsterdam" -->
+
+<WebsiteURLTemplate name="Wikibooks" baseURL="http://nl.wikibooks.org/wiki/Special:Search?" description="Zoek in leerboeken met vrije inhoud." >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="Zoekterm" userHint="Vereist" description="Voer hier uw zoektermen in." />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- Wikinews-zoekopdracht "http://nl.wikisource.org/wiki/Special:Search?search=Nederlands" -->
+
+<WebsiteURLTemplate name="Wikisource" baseURL="http://nl.wikisource.org/wiki/Special:Search?" description="Zoek in de gratis bibliotheek met bronteksten." >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="Zoekterm" userHint="Vereist" description="Voer hier uw zoektermen in." />
+ 
+</WebsiteURLTemplate>
+
+
+</WebsiteURLTemplateList>

@@ -1,0 +1,21 @@
+/* Map Image Name to Accessibility Description */
+
+"IDB_SORT_ORDER" = "升序排序";
+"IDB_SORT_ORDER_DISABLED" = "升序排序";
+"IDB_SORT_ORDER_DESCEND" = "降序排序";
+"IDB_SORT_ORDER_DESCEND_DISABLED" = "降序排序";
+"IDB_SORT_ORDER_CUSTOM" = "自定义排序顺序";
+"IDB_SORT_ORDER_CUSTOM_DISABLED" = "自定义排序顺序";
+"IDBSICN_SORT4" = "基于合计字段升序重新排序";
+"IDBSICN_SORT5" = "基于合计字段降序重新排序";
+"IDB_IMPORT_ARROWS_MAP" = "导入此字段";
+"IDB_IMPORT_ARROWS_NONE" = "不导入此字段";
+"IDB_IMPORT_ARROWS_MATCH" = "基于此字段匹配记录";
+"IDB_IMPORT_ARROWS_CANTIMPORT" = "目标字段无法接收数据";
+"IDB_BREAKPOINT_ON" = "断点开启";
+"IDB_BREAKPOINT_OFF" = "断点关闭";
+"IDB_DEFINE_SCRIPTS_GROUP" = "文件夹";
+"IDB_DEFINE_SCRIPTS_SCRIPT" = "脚本";
+"IDB_SICN_LIST_REORDER" = "拖动以重新排序";
+
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<WebsiteURLTemplateList  xmlns="http://www.filemaker.com/WebsiteURLTemplate"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+           xsd:noNamespaceSchemaLocation="WebViewerTemplates.xsd">
+
+<!-- 页首结束，模板列表开始：-->  
+ 
+
+
+<!-- 模板支持类似如下内容"http://www.google.com/search?hl=zh-CN&q=FileMaker%20Pro" -->
+
+<WebsiteURLTemplate name="Google Web 搜索" description="搜索 Web。" baseURL="http://www.google.com/search?" >
+ 
+ <URLElement type="Literal">hl=zh-CN&amp;</URLElement>
+ <URLElement parameterIdentifier="q" type="Parameter" label="查询" userHint="必需的" description="在此处输入您的搜索词条。" />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- FedEx 包裹跟踪"http://www.fedex.com/Tracking?cntry_code=cn&language=chinese_sim&tracknumbers=709384470830" -->
+
+
+<WebsiteURLTemplate name="FedEx" baseURL="http://www.fedex.com/Tracking?" description="跟踪货物递送。" >
+ 
+   <URLElement type="Literal">cntry_code=cn&amp;</URLElement>
+   <URLElement type="Literal">language=chinese_sim&amp;</URLElement>
+   <URLElement parameterIdentifier="tracknumbers" type="Parameter" label="跟踪号码" userHint="必需的" description="在此处输入您的包裹跟踪号码。" />
+ 
+</WebsiteURLTemplate>
+
+
+
+
+
+
+
+
+
+
+
+</WebsiteURLTemplateList>

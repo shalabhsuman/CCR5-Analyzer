@@ -1,0 +1,21 @@
+/* Map Image Name to Accessibility Description */
+
+"IDB_SORT_ORDER" = "Aufsteigend sortieren";
+"IDB_SORT_ORDER_DISABLED" = "Aufsteigend sortieren";
+"IDB_SORT_ORDER_DESCEND" = "Absteigend sortieren";
+"IDB_SORT_ORDER_DESCEND_DISABLED" = "Absteigend sortieren";
+"IDB_SORT_ORDER_CUSTOM" = "Eigene Sortierfolge";
+"IDB_SORT_ORDER_CUSTOM_DISABLED" = "Eigene Sortierfolge";
+"IDBSICN_SORT4" = "Neu ordnen, basierend auf Statistikfeld, aufsteigend sortiert";
+"IDBSICN_SORT5" = "Neu ordnen, basierend auf Statistikfeld, absteigend sortiert";
+"IDB_IMPORT_ARROWS_MAP" = "Dieses Feld importieren";
+"IDB_IMPORT_ARROWS_NONE" = "Dieses Feld nicht importieren";
+"IDB_IMPORT_ARROWS_MATCH" = "Datensätze anhand dieses Feldes abgleichen";
+"IDB_IMPORT_ARROWS_CANTIMPORT" = "Zielfeld kann keine Daten annehmen";
+"IDB_BREAKPOINT_ON" = "Haltepunkt ein";
+"IDB_BREAKPOINT_OFF" = "Haltepunkt aus";
+"IDB_DEFINE_SCRIPTS_GROUP" = "Ordner";
+"IDB_DEFINE_SCRIPTS_SCRIPT" = "Script";
+"IDB_SICN_LIST_REORDER" = "Ziehen, um neu zu ordnen";
+
+

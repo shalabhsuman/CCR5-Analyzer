@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<WebsiteURLTemplateList  xmlns="http://www.filemaker.com/WebsiteURLTemplate"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+           xsd:noNamespaceSchemaLocation="WebViewerTemplates.xsd">
+
+<!-- Sidhuvud slutar, listan Mallar startar: -->
+
+
+<!-- Kartsökning  "http://www.mapquest.com/maps/map.adp?formtype=address&searchtype=address&country=SE&address=&city=Stockholm" -->
+
+ <WebsiteURLTemplate name="MapQuest" baseURL="http://www.mapquest.com/maps/map.adp?" description="Visa kartor och få vägbeskrivningar." parameterIndicator="=" parameterSeparator="&amp;" >
+ 
+   <URLElement type="Literal">formtype=address&amp;</URLElement>
+   <URLElement type="Literal">searchtype=address&amp;</URLElement>
+   <URLElement type="Literal">cid=filemkr&amp;</URLElement>
+ 
+   <URLElement parameterIdentifier="address" type="Parameter" label="Gatuadress" description="Adress för denna plats." userHint="Obligatoriskt"  alwaysPresent="True" />
+   <URLElement type="Parameter" label="Postnummer" userHint="Valfritt" alwaysPresent="False" parameterIdentifier="zipcode" description="Postnummer, om det är känt." />
+   <URLElement type="Parameter" label="Ort" userHint="Obligatoriskt" alwaysPresent="False" parameterIdentifier="city" description="Stad eller ort för denna plats." />
+   <URLElement type="Parameter" label="Land" userHint="Obligatoriskt" alwaysPresent="True" parameterIdentifier="country" description="Land för denna plats." />
+ 
+ 
+ </WebsiteURLTemplate>
+ 
+
+
+<!-- mall som stöder något som "http://www.google.se/search?q=testing" -->
+
+<WebsiteURLTemplate name="Google-webbsökning" description="Sök på webben." baseURL="http://www.google.se/search?" >
+ 
+ <URLElement parameterIdentifier="q" type="Parameter" label="Fråga" userHint="Obligatoriskt" description="Ange söktermer här." />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- FedEx-paketspårning "http://www.fedex.com/Tracking?cntry_code=se&tracknumbers=709384470830" -->
+
+
+<WebsiteURLTemplate name="FedEx" baseURL="http://www.fedex.com/Tracking?" description="Spåra leveranser." >
+ 
+   <URLElement type="Literal">cntry_code=se&amp;</URLElement>
+   <URLElement parameterIdentifier="tracknumbers" type="Parameter" label="Spårningsnummer" userHint="Obligatoriskt" description="Ange ditt spårningsnummer för paketet här." />
+ 
+</WebsiteURLTemplate>
+
+
+
+
+
+
+
+<!-- Wikipedia-sökning "http://sv.wikipedia.org/wiki/Special:Search?search=Svenska" -->
+
+<WebsiteURLTemplate name="Wikipedia" baseURL="http://sv.wikipedia.org/wiki/Special:Search?" description="Sök i den fria uppslagsboken." >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="Sökord" userHint="Obligatoriskt" description="Ange söktermer här." />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- Wikinews-sökning "http://sv.wikinews.org/wiki/Special:Search?search=Wikinews" -->
+
+<WebsiteURLTemplate name="Wikinews" baseURL="http://sv.wikinews.org/wiki/Special:Search?" description="Sök nyhetsartiklar." >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="Sökord" userHint="Obligatoriskt" description="Ange söktermer här." />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- Wikinews-sökning "http://sv.wiktionary.org/wiki/Special:Search?search=Svenska" -->
+
+<WebsiteURLTemplate name="Wiktionary" baseURL="http://sv.wiktionary.org/wiki/Special:Search?" description="Sök i ordboken med öppet innehåll." >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="Sökord" userHint="Obligatoriskt" description="Ange söktermer här." />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- Wikinews-sökning "http://sv.wikibooks.org/wiki/Special:Search?search=Ladda" -->
+
+<WebsiteURLTemplate name="Wikibooks" baseURL="http://sv.wikibooks.org/wiki/Special:Search?" description="Sök i textböcker med öppet innehåll." >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="Sökord" userHint="Obligatoriskt" description="Ange söktermer här." />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- Wikinews-sökning "http://sv.wikisource.org/wiki/Special:Search?search=Svenska" -->
+
+<WebsiteURLTemplate name="Wikisource" baseURL="http://sv.wikisource.org/wiki/Special:Search?" description="Sök i det fria biblioteket med källtexter." >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="Sökord" userHint="Obligatoriskt" description="Ange söktermer här." />
+ 
+</WebsiteURLTemplate>
+
+
+</WebsiteURLTemplateList>

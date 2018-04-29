@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<WebsiteURLTemplateList  xmlns="http://www.filemaker.com/WebsiteURLTemplate"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+           xsd:noNamespaceSchemaLocation="WebViewerTemplates.xsd">
+
+<!-- Header ends, Template list begins: -->
+
+
+
+
+<!-- template supporting something like  "lhttp://www.google.co.kr/maps?q=1884+Orange+Grove+Drive,+San+Jose,+CA+95124" -->
+
+ <WebsiteURLTemplate name="Google 지도" baseURL="http://www.google.co.kr/maps?" description="지도를 보고 위치를 찾으십시오. 미국으로 추정됩니다.">
+ 
+ <URLElement parameterIdentifier="q" type="Virtual" virtualSeparator="," >   <!-- virtualSeparator is optional if , -->
+ 
+  <URLVirtualParameter label="주소" userHint="필수" description="해당 위치의 주소 또는 교차로입니다(정확하지 않음)." />
+  <URLVirtualParameter label="도시" userHint="필수" description="해당 위치에 있는 도시입니다(정확하지 않음)." />
+  <URLVirtualParameter label="도" userHint="필수" description="해당 위치에 있는 도입니다(정확하지 않음)." />
+  <URLVirtualParameter label="우편 번호" userHint="옵션" description="우편 경로 코드입니다(알고 있는 경우)." />
+  <URLVirtualParameter label="국가" userHint="옵션" description="국가 위치입니다(정확하지 않음)." />
+ 
+ </URLElement>
+  
+ </WebsiteURLTemplate>
+ 
+ 
+ 
+
+<!-- template supporting something like "http://www.google.com/search?q=testing" -->
+
+<WebsiteURLTemplate name="Google 웹 검색" description="웹을 검색하십시오." baseURL="http://www.google.co.kr/search?" >
+ 
+ <URLElement parameterIdentifier="q" type="Parameter" label="쿼리" userHint="필수" description="여기에 검색 용어를 입력하십시오." />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- FedEx Package Tracking "http://www.fedex.com/Tracking?tracknumbers=709384470830" -->
+
+
+<WebsiteURLTemplate name="FedEx" baseURL="http://www.fedex.com/Tracking?" description="Track shipments." >
+
+   <URLElement type="Literal">cntry_code=kr&amp;</URLElement>
+   <URLElement parameterIdentifier="tracknumbers" type="Parameter" label="추적 번호" userHint="필수" description="여기에 패키지 추적 번호를 입력하십시오." />
+ 
+</WebsiteURLTemplate>
+
+
+
+
+
+<!-- Wikipedia search "http://ko.wikipedia.org/wiki/Special:Search?search=Test" -->
+
+<WebsiteURLTemplate name="Wikipedia" baseURL="http://ko.wikipedia.org/wiki/Special:Search?" description="무료 백과사전을 검색하십시오." >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="검색 용어" userHint="필수" description="여기에 검색 용어를 입력하십시오." />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- Wikinews search "http://ko.wikinews.org/wiki/Special:Search?search=Apple" -->
+
+<WebsiteURLTemplate name="Wikinews" baseURL="http://ko.wikinews.org/wiki/Special:Search?" description="뉴스 기사를 검색하십시오." >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="검색 용어" userHint="필수" description="여기에 검색 용어를 입력하십시오." />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- Wiki dictionary search "http://ko.wiktionary.org/wiki/Special:Search?search=Tree" -->
+
+<WebsiteURLTemplate name="Wiktionary" baseURL="http://ko.wiktionary.org/wiki/Special:Search?" description="오픈 콘텐츠 사전을 검색하십시오." >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="검색 용어" userHint="필수" description="여기에 검색 용어를 입력하십시오." />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- Wikibooks search "http://ko.wikibooks.org/wiki/Special:Search?search=George+Washington" -->
+
+<WebsiteURLTemplate name="Wikibooks" baseURL="http://ko.wikibooks.org/wiki/Special:Search?" description="오픈 콘텐츠 텍스트북을 검색하십시오." >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="검색 용어" userHint="필수" description="여기에 검색 용어를 입력하십시오." />
+ 
+</WebsiteURLTemplate>
+
+
+
+<!-- Wikinews search "http://ko.wikisource.org/wiki/Special:Search?search=Lincoln" -->
+
+<WebsiteURLTemplate name="Wikisource" baseURL="http://ko.wikisource.org/wiki/Special:Search?" description="소스 텍스트의 무료 라이브러리를 검색하십시오." >
+ 
+ <URLElement parameterIdentifier="search" type="Parameter" label="검색 용어" userHint="필수" description="여기에 검색 용어를 입력하십시오." />
+ 
+</WebsiteURLTemplate>
+
+
+
+
+</WebsiteURLTemplateList>

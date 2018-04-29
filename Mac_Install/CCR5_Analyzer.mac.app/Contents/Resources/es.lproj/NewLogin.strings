@@ -1,0 +1,27 @@
+
+/* Class = "NSButtonCell"; title = "Iniciar sesión"; ObjectID = "4"; */
+"4.title" = "Iniciar sesión";
+
+/* Class = "NSButtonCell"; title = "Cancelar"; ObjectID = "7"; */
+"7.title" = "Cancelar";
+
+/* Class = "NSTextFieldCell"; title = "Contraseña:"; ObjectID = "Fjy-La-bCf"; */
+"Fjy-La-bCf.title" = "Contraseña:";
+
+/* Class = "NSButtonCell"; title = "Guardar contraseña en Acceso a Llaveros"; ObjectID = "NAA-he-KaM"; */
+"NAA-he-KaM.title" = "Guardar contraseña en Acceso a Llaveros";
+
+/* Class = "NSTextFieldCell"; title = "Nombre de cuenta:"; ObjectID = "Yap-X0-3cj"; */
+"Yap-X0-3cj.title" = "Nombre de cuenta:";
+
+/* Class = "NSButtonCell"; title = "Iniciar sesión como invitado"; ObjectID = "g75-3Y-6Qv"; */
+"g75-3Y-6Qv.title" = "Iniciar sesión como invitado";
+
+/* Class = "NSTextFieldCell"; title = "O iniciar sesión con:"; ObjectID = "mgh-zY-lfV"; */
+"mgh-zY-lfV.title" = "O iniciar sesión con:";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Consulte la información de conexión o el certificado."; ObjectID = "vi9-Eu-fc4"; */
+"vi9-Eu-fc4.ibExternalAccessibilityDescription" = "Consulte la información de conexión o el certificado.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Consulte la información de conexión o el certificado."; ObjectID = "vi9-Eu-fc4"; */
+"vi9-Eu-fc4.ibShadowedToolTip" = "Consulte la información de conexión o el certificado.";

@@ -1,0 +1,21 @@
+/* Map Image Name to Accessibility Description */
+
+"IDB_SORT_ORDER" = "Ordinam. ascendente";
+"IDB_SORT_ORDER_DISABLED" = "Ordinam. ascendente";
+"IDB_SORT_ORDER_DESCEND" = "Ordinam. discendente";
+"IDB_SORT_ORDER_DESCEND_DISABLED" = "Ordinam. discendente";
+"IDB_SORT_ORDER_CUSTOM" = "Criterio di ordinamento personalizzato";
+"IDB_SORT_ORDER_CUSTOM_DISABLED" = "Criterio di ordinamento personalizzato";
+"IDBSICN_SORT4" = "Riordina in base al campo Riassunto, ordine crescente";
+"IDBSICN_SORT5" = "Riordina in base al campo Riassunto, ordine decrescente";
+"IDB_IMPORT_ARROWS_MAP" = "Importa questo campo";
+"IDB_IMPORT_ARROWS_NONE" = "Non importare questo campo";
+"IDB_IMPORT_ARROWS_MATCH" = "Confronta record in base a questo campo";
+"IDB_IMPORT_ARROWS_CANTIMPORT" = "Il campo di destinazione non può ricevere i dati";
+"IDB_BREAKPOINT_ON" = "Punto di interruzione attivato";
+"IDB_BREAKPOINT_OFF" = "Punto di interruzione disattivato";
+"IDB_DEFINE_SCRIPTS_GROUP" = "Cartella";
+"IDB_DEFINE_SCRIPTS_SCRIPT" = "Script";
+"IDB_SICN_LIST_REORDER" = "Trascina per riordinare";
+
+

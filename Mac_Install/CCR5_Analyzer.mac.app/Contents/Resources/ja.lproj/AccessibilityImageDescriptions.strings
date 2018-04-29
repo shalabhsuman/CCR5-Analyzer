@@ -1,0 +1,21 @@
+/* Map Image Name to Accessibility Description */
+
+"IDB_SORT_ORDER" = "昇順でソート";
+"IDB_SORT_ORDER_DISABLED" = "昇順でソート";
+"IDB_SORT_ORDER_DESCEND" = "降順でソート";
+"IDB_SORT_ORDER_DESCEND_DISABLED" = "降順でソート";
+"IDB_SORT_ORDER_CUSTOM" = "カスタムのソート優先順位";
+"IDB_SORT_ORDER_CUSTOM_DISABLED" = "カスタムのソート優先順位";
+"IDBSICN_SORT4" = "集計フィールドに基づいて並べ替え、昇順";
+"IDBSICN_SORT5" = "集計フィールドに基づいて並べ替え、降順";
+"IDB_IMPORT_ARROWS_MAP" = "インポートする";
+"IDB_IMPORT_ARROWS_NONE" = "インポートしない";
+"IDB_IMPORT_ARROWS_MATCH" = "照合フィールド";
+"IDB_IMPORT_ARROWS_CANTIMPORT" = "ターゲットフィールドがデータを受信できません";
+"IDB_BREAKPOINT_ON" = "ブレークポイントオン";
+"IDB_BREAKPOINT_OFF" = "ブレークポイントオフ";
+"IDB_DEFINE_SCRIPTS_GROUP" = "フォルダ";
+"IDB_DEFINE_SCRIPTS_SCRIPT" = "スクリプト";
+"IDB_SICN_LIST_REORDER" = "ドラッグして並べ替え";
+
+

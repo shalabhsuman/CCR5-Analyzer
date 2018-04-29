@@ -1,0 +1,21 @@
+/* Map Image Name to Accessibility Description */
+
+"IDB_SORT_ORDER" = "오름차순 정렬";
+"IDB_SORT_ORDER_DISABLED" = "오름차순 정렬";
+"IDB_SORT_ORDER_DESCEND" = "내림차순 정렬";
+"IDB_SORT_ORDER_DESCEND_DISABLED" = "내림차순 정렬";
+"IDB_SORT_ORDER_CUSTOM" = "사용자 설정 정렬 순서";
+"IDB_SORT_ORDER_CUSTOM_DISABLED" = "사용자 설정 정렬 순서";
+"IDBSICN_SORT4" = "요약 필드를 기반으로 오름차순으로 재정렬";
+"IDBSICN_SORT5" = "요약 필드를 기반으로 내림차순으로 재정렬";
+"IDB_IMPORT_ARROWS_MAP" = "이 필드 가져오기";
+"IDB_IMPORT_ARROWS_NONE" = "이 필드 가져오지 않음";
+"IDB_IMPORT_ARROWS_MATCH" = "이 필드를 기반으로 레코드 일치";
+"IDB_IMPORT_ARROWS_CANTIMPORT" = "대상 필드가 데이터를 받을 수 없음";
+"IDB_BREAKPOINT_ON" = "중단점 켬";
+"IDB_BREAKPOINT_OFF" = "중단점 끔";
+"IDB_DEFINE_SCRIPTS_GROUP" = "폴더";
+"IDB_DEFINE_SCRIPTS_SCRIPT" = "스크립트";
+"IDB_SICN_LIST_REORDER" = "드래그하여 재정렬";
+
+
